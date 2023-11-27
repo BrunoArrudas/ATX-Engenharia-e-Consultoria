@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* Estilização - Logo + Barra de Navegação + Menu */
+
+#container-topo {
+    background-color: #004aad;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.box-logo {
+    background-color: #004aad;
+    width: 310px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-logo img {
+    height: 100px;;
+    width: 150px;
+}
+
+.box-menu {
+    background-color: #004aad;
+    width: 1280px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #004aad;
+    width: 1280px;
+}
+
+.menu li {
+    float: left;
+    margin: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 28px;
+}
+
+.menu li a:hover {
+    background-color: rgba(255, 255, 255);
+    color: #004aad;
+    padding: 28px;
+}
+
+/* Estilização Banner */
+
+#container-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    background-image: url(Imagens/fundoindex01.jpg);
+    height: 600px;
+    height: 620px;
+}
+
+#container-banner img {
+    width: 1200px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+
+
+/* Estilização texto */
+
+#container-texto {
+    /* background-color: #004aad; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004aad;
+    /* overflow: hidden; */
+
+}
+
+.box1-texto {
+    width: 1200px;
+    height: 100px;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    background-color: #004aad;
+    color: whitesmoke;
+    margin-top: -35px;
+}
+
+#container-texto p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* Estilização banner cultural */
+
+#container-cultural {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    background-image: url(Imagens/fundoazul.jpeg);
+    border: 50px solid #004aad;
+}
+
+#container-cultural img {
+    width: 1200px;
+    height: 600px;
+    background-color: #2eb8ac;
+    border-radius: 5px;
+}
+
+/* Estilização textos culturais */
+#container-texto2 {
+    width: 100;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Imagens/fundoverde.jpg);
+}
+
+.box2-texto {
+    width: 1200px;
+    height: 200px;
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+.k1 {
+    width: 1190px;
+}
+
+/* Estilizaçaõ Pagina contato */
+
+#container-texto5 {
+    margin: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 {
+    width: 500px;
+    display: inline;
+    margin: 20px;
+    background-color: aqua;
+}
+
+.b2 {
+    width: 500px;
+    background-color: aqua;
+}
+
+/* Estilização Mapa */
+
+#container-mapa {
+    background-color: white;
+    border-top: 50px solid whitesmoke;
+}
+
+#container-mapa img {
+    transform: translateX(300px);
+}
+
+#container-mapa img:hover{
+    width: 1300px;
+}
+
+#container-textomapa {
+    background-image: url(Imagens/fundoverde.jpg);
+}
+
+.l1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 360px;
+}
+
+#n2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 360px;
+}
+
+
+/* Footer */
+
+#container-footer {
+    background-color: #004aad;
+    height: 100px;
+}
+
+.f01{
+    color: white;
+    border-top: 20px solid #004aad;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(800px);
+    width: 500px;
+}

@@ -1,0 +1,62 @@
+#container-textocontato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: #004aad;
+}
+
+.g1{
+    display: inline-block;
+    margin-left: 100px;
+    width: 500px;
+    transform: translateX(-110px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    color: white;
+    background-color: #004aad;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.g2{
+    color: #2eb8ac ;
+}
+
+#container-textotitulo{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    color: white;
+}
+
+.g3{
+    display: inline-block;
+    margin-left: 400px;
+    transform: translateX(-150px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    color: white;
+}
+
+#container-all{
+    background-image: url(Imagens/fundoazul.jpeg);
+}
+
+#container-cor03{
+    background-image: url(Imagens/fundoazul.jpeg);
+    height: 50px;
+}
+
+.f01{
+    color: white;
+    border-top: 20px solid #004aad;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(700px);
+    width: 500px;
+}
+

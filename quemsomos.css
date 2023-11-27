@@ -1,0 +1,77 @@
+#container-quem img {
+    width: 50%;
+    border-radius: 20px;
+    margin: 30px;
+    transform: translateX(410px);
+}
+
+#container-quem{
+    background-image: url(Imagens/fundoazul.jpeg);
+}
+
+.n1 {
+    width: 230px;
+    margin-right: 50px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    transform: translateX(510px);
+    margin-bottom: 80px;
+    margin-top: 30px;
+    align-content: center;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.sm1 {
+    width: 700px;
+    transform: translateX(600px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+
+.sm2 {
+    width: 800px;
+    transform: translateX(500px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.sm3 {
+    transform: translateX(500px);
+    margin-right: 100px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#container-quemsomos1 {
+    background-image: url(Imagens/fundoverde.jpg);
+    height: 200px;
+}
+
+#container-barrasomos {
+    background-color: #004aad;
+    height: 30px;
+}
+
+#Container-barrasomos2 {
+    background-image: url(Imagens/fundoverde.jpg);
+}
+
+#container-textosmotivos1 {
+    background-image: url(Imagens/fundoverde.jpg);
+}
+
+.f01{
+    color: white;
+    border-top: 20px solid #004aad;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(700px);
+    width: 500px;
+}
